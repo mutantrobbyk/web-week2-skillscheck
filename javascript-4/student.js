@@ -26,7 +26,7 @@ let me = {
     homeTown: 'Huntsville',
     superPowers: ['invisibility', 'flight', 'strong'],
     superPowerXP: () => {Math.floor(Math.random() * 100) + 1},
-    profileImage: `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
+    profileImage: () => `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
 }
 // CODE HERE
 
